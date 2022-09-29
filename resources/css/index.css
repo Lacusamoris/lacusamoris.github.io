@@ -1,0 +1,108 @@
+
+@font-face {
+    font-family: Kanit;
+    src: url(Kanit-Light.ttf);
+}
+body{
+    background-image: url(фон10.png);
+    background-size: 100%;
+    font-family: Kanit;
+}
+nav{
+    position:fixed;
+    z-index: 1;
+    width:100%;
+    top:0;
+    right: 0;
+    left:0;
+    
+    background-color: rgb(255, 255, 255);
+}
+nav a{
+    text-decoration: none; 
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(46, 15, 73);
+}
+main a:visited{
+    color: rgb(46, 15, 73);
+}
+nav a:hover{
+    color:rgb(87, 27, 184);
+}
+nav li{
+  display: inline-block; 
+  width:150px; 
+  font-size:20px;
+  padding: 0 85px;
+ 
+}
+header{
+    position:relative;
+    margin: 80px 0 10px;
+    text-align: center;
+}
+header h1{
+    color:rgb(70, 0, 136);
+}
+.header img{
+    height: 200px;
+    width:200px;
+    border: 2px dashed rgb(49, 8, 87);
+}
+.block{
+    background-color: rgba(194, 159, 233, 0.85);
+    text-align:justify;
+    margin: 0 200px;
+    padding: 40px;
+    line-height: 30px;
+}
+
+main a:visited{
+    color: rgb(32, 1, 73);
+}
+main a:hover{
+    color: rgb(93, 31, 175);
+}
+
+
+p{
+    font-size:20px;
+}
+
+
+main  h2{
+    color: rgb(85, 25, 141);
+    
+}
+main  h3{
+    color: rgb(38, 1, 73);
+}
+#day_schedule{
+    background-color:  rgb(36, 28, 46, 0.85);
+    margin: 40px 200px  0;
+    padding: 20px;
+    line-height: 30px;
+    font-size:20px
+    
+}
+#day_schedule h2{
+    color:rgb(255, 255, 255);
+}
+#day_schedule li{
+    color: white;
+}
+.gallery{
+    text-align: center;
+    padding:0 150px;
+    background-color: rgba(0, 0, 0, 0.856);
+    margin: 40px 200px  0;
+    
+}
+.gallery h2{
+   color: white; 
+}
+.gallery img{
+    height:300px;
+    width:240px;
+}
